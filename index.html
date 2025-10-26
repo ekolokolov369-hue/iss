@@ -4,152 +4,140 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ПЕРЕДОВІ СИСТЕМИ БЕЗПЕКИ — Innovative Security Systems | Одеса</title>
-<meta name="description" content="Охорона об’єктів, супровід вантажів, особиста охорона, відеоспостереження, охорона заходів. 100% гарантія безпеки. Одеса. Цілодобово 24/7.">
+<meta name="description" content="Передові системи безпеки в Одесі: охорона об’єктів, супровід вантажів, особиста охорона, відеоспостереження, охорона заходів. 100% гарантія безпеки. 24/7." />
 
-<!-- Open Graph для гарної картки при поширенні -->
+<!-- Open Graph / Twitter (красиве превʼю при поширенні) -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="ПЕРЕДОВІ СИСТЕМИ БЕЗПЕКИ — Innovative Security Systems">
-<meta property="og:description" content="Надійний захист: об’єкти, вантажі, VIP-охорона, відеоспостереження та охорона заходів. 24/7. Одеса.">
-<!-- Якщо файл розмістите онлайн — замініть на абсолютну URL вашого логотипа -->
+<meta property="og:title" content="ПЕРЕДОВІ СИСТЕМИ БЕЗПЕКИ — ISS, Одеса">
+<meta property="og:description" content="Охорона об’єктів, супровід вантажів, особиста охорона, відеоспостереження. 100% гарантія безпеки. Працюємо 24/7.">
 <meta property="og:image" content="https://mos-075206.oml.ru/thumb/2/pKDDh4w6rqggW0W-vFFW3g/2000r2000/d/tpl25_security.png">
 <meta property="og:image:alt" content="ISS — Передові системи безпеки">
-
-<!-- Favicon + SVG-лого (круг з ISS) -->
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cdefs/%3E%3Ccircle cx='128' cy='128' r='124' fill='%23000'/%3E%3Ccircle cx='128' cy='128' r='122' fill='none' stroke='%23FFD000' stroke-width='8'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' font-family='Montserrat, Arial, sans-serif' font-size='96' font-weight='900' fill='%23FFD000'%3EISS%3C/text%3E%3C/svg%3E" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ПЕРЕДОВІ СИСТЕМИ БЕЗПЕКИ — ISS, Одеса">
+<meta name="twitter:description" content="Охоронні послуги повного циклу. 24/7.">
+<meta name="twitter:image" content="https://mos-075206.oml.ru/thumb/2/pKDDh4w6rqggW0W-vFFW3g/2000r2000/d/tpl25_security.png">
 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 
 <style>
   :root{
-    --bg:#0d0d0f;
+    --bg:#0c0c0c;
     --txt:#ffffff;
-    --muted:#bcbcbc;
+    --muted:#cfd0d2;
     --brand:#ffd000;
     --card:#151516;
-    --stroke:rgba(255,255,255,.06);
+    --stroke:rgba(255,255,255,.08);
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
   body{
-    margin:0;
-    font-family:'Montserrat',system-ui,Segoe UI,Roboto,Helvetica,Arial;
+    margin:0; font-family:'Montserrat',system-ui,Segoe UI,Roboto,Helvetica,Arial;
     color:var(--txt);
-    /* ЧОРНИЙ МЕТАЛЕВИЙ ФОН */
-    background:
-      url("https://abrakadabra.fun/uploads/posts/2022-01/1642415632_2-abrakadabra-fun-p-chernii-metallicheskii-fon-2.jpg")
-      center/cover fixed #0b0b0c;
+    background: #0c0c0c url("https://abrakadabra.fun/uploads/posts/2022-01/1642415632_2-abrakadabra-fun-p-chernii-metallicheskii-fon-2.jpg") center/cover fixed;
   }
-  /* Легка текстура/світіння поверх */
+  /* тонка фактура зверху без блюра */
   body::before{
     content:""; position:fixed; inset:0; pointer-events:none; z-index:-1;
-    background:
-      radial-gradient(1200px 600px at 50% 0%, rgba(255,255,255,.06), rgba(0,0,0,0) 40%),
-      radial-gradient(900px 700px at 50% 100%, rgba(0,0,0,.5), rgba(0,0,0,.9) 60%);
-    mix-blend-mode:soft-light;
+    background: radial-gradient(1200px 600px at 50% 10%, rgba(255,255,255,.05), transparent 40%),
+                radial-gradient(1000px 800px at 50% 100%, rgba(0,0,0,.45), rgba(0,0,0,.85) 60%);
   }
 
   a{color:inherit; text-decoration:none}
   img{max-width:100%; display:block}
-  .container{width:min(1200px, 92%); margin:0 auto}
-
-  /* Утіліти та типографіка */
+  .container{width:min(1180px, 92%); margin:0 auto}
   .center{text-align:center}
-  .h1{
-    font-size:clamp(40px, 6vw, 86px);
-    line-height:.95;
-    font-weight:900;
-    margin:10px 0 16px;
-    letter-spacing:-.5px;
-  }
-  .h1 strong{color:var(--brand)}
-  .lead{color:var(--muted)}
-  .section{padding:72px 0}
 
+  /* кнопки — щоб не ламались у два рядки */
   .btn{
-    display:inline-flex; align-items:center; justify-content:center; gap:8px;
-    padding:14px 26px;
-    border-radius:12px; font-weight:800; letter-spacing:.3px;
+    display:inline-flex; align-items:center; justify-content:center;
+    padding:14px 22px; border-radius:12px; font-weight:800;
     background:var(--brand); color:#000; border:none; cursor:pointer;
-    transition:.25s transform, .25s box-shadow, .25s opacity;
-    box-shadow:0 10px 26px rgba(255,208,0,.2);
-    white-space:nowrap;           /* один рядок */
+    box-shadow:0 10px 26px rgba(255,208,0,.22);
+    transition:.2s transform, .2s box-shadow, .2s opacity;
+    white-space:nowrap; line-height:1;
   }
   .btn:hover{transform:translateY(-2px); box-shadow:0 16px 40px rgba(255,208,0,.28)}
   .btn.ghost{background:transparent; color:var(--txt); border:2px solid var(--brand)}
+  .lead{color:var(--muted)}
+  .section{padding:68px 0}
 
-  /* Плавні появи при скролі */
-  .reveal{opacity:0; transform:translateY(24px); filter:saturate(.9) contrast(.95);
-          transition:opacity .8s ease, transform .8s ease, filter .8s ease}
-  .reveal.show{opacity:1; transform:none; filter:none}
+  /* плавні появи */
+  .reveal{opacity:0; transform:translateY(22px); transition:.8s ease}
+  .reveal.show{opacity:1; transform:none}
 
-  /* Хедер */
+  /* ШАПКА */
   header{
     position:sticky; top:0; z-index:50;
-    backdrop-filter: blur(8px);
-    background:rgba(0,0,0,.58);
+    backdrop-filter: blur(6px);
+    background:rgba(0,0,0,.6);
     border-bottom:1px solid var(--stroke);
   }
-  .head{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 0}
-  .brand{display:flex; align-items:center; gap:12px; font-weight:900}
-  .logo{
-    width:44px;height:44px;border-radius:50%;display:grid;place-items:center;
-    background:#000; color:#ffd000; font-weight:900; border:2px solid var(--brand);
-    letter-spacing:.5px;
-  }
+  .head{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:12px 0}
   nav ul{list-style:none;display:flex;gap:22px;margin:0;padding:0;font-weight:800}
-  .top-cta{display:flex; align-items:center; gap:18px; font-weight:800}
-  .phone a{color:var(--brand)}
+  .top-cta{display:flex; align-items:center; gap:16px; font-weight:800}
+  .top-cta .phone a{color:var(--brand)}
   .loc{font-size:12px;color:var(--muted)}
 
+  /* логотип ISS — овал + текст */
+  .brand{display:flex; align-items:center; gap:14px}
+  .logo{
+    width:56px; height:56px;
+  }
+  .brandtext{font-weight:900; text-transform:uppercase; line-height:1}
+  .sub{font-size:12px;color:var(--muted); font-weight:700}
+
   /* HERO */
-  .hero{padding:70px 0 40px}
+  .hero{padding:74px 0 40px}
+  .h1{font-size:clamp(42px, 6vw, 96px); line-height:.95; font-weight:900; margin:0 0 16px}
+  .h1 strong{color:var(--brand)}
   .hero-actions{display:flex; gap:14px; justify-content:center; flex-wrap:wrap; margin-top:26px}
-  .hero-grid{display:grid; grid-template-columns:1fr; gap:24px; margin-top:30px}
-  .hero-cards{display:grid; grid-template-columns:repeat(3,1fr); gap:18px}
+
+  .hero-cards{display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:30px}
   .hcard{position:relative; height:230px; overflow:hidden; border-radius:16px;
-         box-shadow:0 14px 36px rgba(0,0,0,.45)}
+         box-shadow:0 14px 36px rgba(0,0,0,.45); background:#000}
   .hcard img{width:100%; height:100%; object-fit:cover}
   .badge{position:absolute; left:10px; top:10px; background:rgba(0,0,0,.6); border:1px solid var(--stroke);
          padding:6px 10px; border-radius:999px; font-weight:800; font-size:12px}
 
-  /* Лента переваг */
-  .ribbon{background:rgba(0,0,0,.5); border-top:1px solid var(--stroke); border-bottom:1px solid var(--stroke)}
-  .ribbon .row{display:grid; grid-template-columns:repeat(4,1fr); gap:20px; padding:18px 0;
+  /* РИББОН */
+  .ribbon{background:#111; border-top:1px solid var(--stroke); border-bottom:1px solid var(--stroke)}
+  .ribbon .row{display:grid; grid-template-columns:repeat(4,1fr); gap:20px; padding:16px 0;
                text-transform:uppercase; letter-spacing:.6px; font-weight:900}
   .chip{display:flex; align-items:center; justify-content:center; gap:10px}
   .dot{width:7px;height:7px;background:var(--brand);border-radius:50%}
 
-  /* Картки послуг */
+  /* КАРТОЧКИ ПОСЛУГ */
   .cards{display:grid; grid-template-columns:repeat(3,1fr); gap:26px; margin-top:28px}
-  .card{background:rgba(0,0,0,.55); border:1px solid var(--stroke); border-radius:18px; overflow:hidden;
+  .card{background:rgba(0,0,0,.5); border:1px solid var(--stroke); border-radius:18px; overflow:hidden;
         box-shadow:0 12px 32px rgba(0,0,0,.4); display:flex; flex-direction:column}
-  .card .num{position:absolute; left:12px; top:12px; background:var(--brand); color:#000; font-weight:900;
-             padding:4px 10px; border-radius:8px; font-size:14px}
-  .thumb{position:relative; height:200px}
-  .thumb img{width:100%; height:100%; object-fit:cover}
-  .pad{padding:20px; text-align:center}
-  .card h3{margin:8px 0 8px; font-weight:900; text-transform:uppercase}
-  .card p{color:var(--muted); min-height:72px}
-  .card .cta{margin:14px auto 20px}
+  .thumb{position:relative}
+  .thumb .num{position:absolute; left:12px; top:12px; background:var(--brand); color:#000; font-weight:900;
+              padding:6px 10px; border-radius:10px; font-size:14px}
+  .thumb img{width:100%; height:280px; object-fit:cover}
+  .pad{padding:22px}
+  .card h3{margin:8px 0 8px; font-weight:900; text-transform:uppercase; text-align:center}
+  .card p{color:var(--muted); min-height:72px; text-align:center}
+  .card .cta{margin:16px auto 6px}
 
-  /* Про нас + форма */
+  /* ПРО КОМПАНІЮ + ФОРМА */
   .about{display:grid; grid-template-columns:1.1fr .9fr; gap:28px; align-items:start}
-  .paper{background:rgba(0,0,0,.45); border:1px solid var(--stroke); border-radius:16px; padding:26px; text-align:center}
+  .paper{background:rgba(0,0,0,.55); border:1px solid var(--stroke); border-radius:16px; padding:26px}
   .form{background:var(--brand); color:#000; border-radius:18px; padding:26px; box-shadow:0 16px 42px rgba(255,208,0,.24)}
-  .form h3{font-size:32px; margin:0 0 6px; font-weight:900; text-align:center}
+  .form h3{font-size:32px; margin:0 0 10px; font-weight:900; text-align:center}
   .field{display:flex; flex-direction:column; gap:8px; margin:12px 0}
   .form input,.form textarea{width:100%; padding:14px 12px; border-radius:10px; border:2px solid rgba(0,0,0,.12); outline:none; font:inherit; background:#fff}
   .form button{width:100%; margin-top:8px}
 
-  /* Рев’ю-смуга */
-  .reviews{background:rgba(0,0,0,.55); border-top:1px solid var(--stroke); border-bottom:1px solid var(--stroke); padding:36px 0; text-align:center}
+  /* КОНТАКТИ */
+  .contacts-grid{display:grid; grid-template-columns:1fr 1fr; gap:24px; align-items:stretch}
+  .panel{background:rgba(0,0,0,.55); border:1px solid var(--stroke); border-radius:16px; padding:20px}
 
-  /* Підвал */
+  /* ПІДВАЛ */
   footer{background:#0a0b0d; border-top:1px solid var(--stroke); padding:26px 0; color:#9b9b9b; font-size:14px}
   footer .grid{display:grid; gap:12px; grid-template-columns:1fr auto}
   footer a{color:var(--brand)}
 
-  /* Адаптивність */
+  /* АДАПТИВ */
   @media (max-width:1024px){
     nav ul{display:none}
     .about{grid-template-columns:1fr}
@@ -158,11 +146,16 @@
   @media (max-width:820px){
     .cards{grid-template-columns:1fr 1fr}
     .ribbon .row{grid-template-columns:repeat(2,1fr)}
+    .contacts-grid{grid-template-columns:1fr}
   }
   @media (max-width:560px){
+    /* фікс фону на мобільних — відключаємо, щоб не «рвало» фон */
+    body{background-attachment:scroll}
     .cards{grid-template-columns:1fr}
     .hero-cards{grid-template-columns:1fr}
-    .btn{width:100%} /* зручно тицяти на мобільних */
+    .btn{padding:13px 18px; font-size:15px}
+    .h1{font-size:40px}
+    .thumb img{height:220px}
   }
 </style>
 </head>
@@ -171,10 +164,20 @@
 <header id="top" class="reveal show">
   <div class="container head">
     <div class="brand">
-      <div class="logo" aria-label="ISS">ISS</div>
-      <div class="center">
-        <div style="font-weight:900; text-transform:uppercase; line-height:1">ПЕРЕДОВІ СИСТЕМИ БЕЗПЕКИ</div>
-        <div style="font-size:12px; color:var(--muted)">Innovative Security Systems</div>
+      <!-- SVG-логотип у стилі сайту -->
+      <svg class="logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="ISS logo">
+        <defs>
+          <linearGradient id="g" x1="0" x2="1">
+            <stop offset="0" stop-color="#ffd000"/>
+            <stop offset="1" stop-color="#e5b800"/>
+          </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="100" rx="92" ry="70" fill="none" stroke="url(#g)" stroke-width="12"/>
+        <text x="100" y="118" text-anchor="middle" font-family="Montserrat, Arial" font-weight="900" font-size="72" fill="#ffd000">ISS</text>
+      </svg>
+      <div class="brandtext">
+        ПЕРЕДОВІ СИСТЕМИ БЕЗПЕКИ
+        <div class="sub">Innovative Security Systems</div>
       </div>
     </div>
 
@@ -201,7 +204,6 @@
   <!-- HERO -->
   <section id="hero" class="section hero center reveal">
     <div class="container">
-      <!-- (прибрав рядок про роки) -->
       <h1 class="h1"><strong>100%</strong> гарантія безпеки</h1>
       <p class="lead">Великий досвід роботи та високий рівень професіоналізму. Забезпечимо охорону об’єктів будь-якої складності цілодобово.</p>
       <div class="hero-actions">
@@ -209,26 +211,24 @@
         <a href="#services-1" class="btn ghost">Наші послуги</a>
       </div>
 
-      <div class="hero-grid" id="gallery">
-        <div class="hero-cards">
-          <div class="hcard reveal">
-            <span class="badge">Патрулювання</span>
-            <img alt="Охоронець з рацією" src="https://mos-075206.oml.ru/thumb/2/M9G-nTJW3LQEn6aNcfka3A/1000r1000/d/tpl25_o1.jpg">
-          </div>
-          <div class="hcard reveal">
-            <span class="badge">Ескорт</span>
-            <img alt="Охорона супровід" src="https://mos-075206.oml.ru/thumb/2/aYcNe2VN1jKcJuyYq2iCjA/1000r1000/d/tpl25_o2.jpg">
-          </div>
-          <div class="hcard reveal">
-            <span class="badge">VIP-охорона</span>
-            <img alt="VIP охоронці" src="https://mos-075206.oml.ru/thumb/2/hFDuyRGQYz87EX8IRdk13A/1000r1000/d/tpl25_o3.jpg">
-          </div>
+      <div class="hero-cards" id="gallery">
+        <div class="hcard reveal">
+          <span class="badge">Патрулювання</span>
+          <img alt="Охоронець з рацією" src="https://mos-075206.oml.ru/thumb/2/M9G-nTJW3LQEn6aNcfka3A/1000r1000/d/tpl25_o1.jpg">
+        </div>
+        <div class="hcard reveal">
+          <span class="badge">Ескорт</span>
+          <img alt="Охорона супровід" src="https://mos-075206.oml.ru/thumb/2/aYcNe2VN1jKcJuyYq2iCjA/1000r1000/d/tpl25_o2.jpg">
+        </div>
+        <div class="hcard reveal">
+          <span class="badge">VIP-охорона</span>
+          <img alt="VIP охоронці" src="https://mos-075206.oml.ru/thumb/2/hFDuyRGQYz87EX8IRdk13A/1000r1000/d/tpl25_o3.jpg">
         </div>
       </div>
     </div>
   </section>
 
-  <!-- РІББОН -->
+  <!-- РИББОН -->
   <section class="ribbon reveal">
     <div class="container row center">
       <div class="chip"><span class="dot"></span> Великий досвід</div>
@@ -242,7 +242,7 @@
   <section id="services-1" class="section center reveal">
     <div class="container">
       <h2 class="h1" style="font-size:clamp(34px,4.5vw,64px)">Ми пропонуємо</h2>
-      <p class="lead">Працюємо з дотриманням найвищих стандартів. У штаті — досвідчені співробітники, колишні працівники МВС та спецпідрозділів.</p>
+      <p class="lead">Працюємо понад 20 років. У штаті — досвідчені співробітники, колишні працівники МВС та спецпідрозділів.</p>
 
       <div class="cards">
         <article class="card reveal">
@@ -296,7 +296,7 @@
           <div class="pad">
             <h3>ПОГОДИННА ОХОРОНА</h3>
             <p>Охорона об’єкта на добу, на день або на ніч.</p>
-            <a href="#form" class="btn cта">Замовити послугу</a>
+            <a href="#form" class="btn cta">Замовити послугу</a>
           </div>
         </article>
 
@@ -327,26 +327,18 @@
     </div>
   </section>
 
-  <!-- Рев’ю -->
-  <section class="reviews center reveal">
-    <div class="container">
-      <p>Понад <b>1000 клієнтів</b> довіряють нам — це підтверджує сервіс та клієнтоорієнтованість.</p>
-      <a href="#contacts" class="btn" style="padding:10px 16px">Читати відгуки</a>
-    </div>
-  </section>
-
-  <!-- ПРО НАС + ФОРМА (без згадок про роки) -->
+  <!-- ПРО КОМПАНІЮ + ФОРМА -->
   <section id="about" class="section reveal">
     <div class="container about">
-      <div class="paper">
+      <div class="paper center">
         <h2 class="h1" style="font-size:clamp(34px,4.5vw,64px)">Про компанію</h2>
-        <p class="lead">Надаємо висококласні охоронні послуги: мережеві магазини, банки, офіси, великі склади — серед наших постійних клієнтів.</p>
+        <p class="lead">Надаємо висококласні охоронні послуги. Серед постійних клієнтів — мережеві магазини, банки, офіси компаній та великі склади.</p>
         <p class="lead">Працюємо по всій Одесі та області. Рішення «під ключ»: оцінка ризиків, план безпеки, інженерні системи, бригада охорони, контроль якості 24/7.</p>
       </div>
 
-      <form id="form" class="form" onsubmit="event.preventDefault(); alert('Дякуємо! Ми зв’яжемося з вами найближчим часом.');">
+      <form id="form" class="form" onsubmit="event.preventDefault(); alert('Дякуємо! Ми з вами зв’яжемося найближчим часом.');">
         <h3>Консультація</h3>
-        <small style="display:block;text-align:center;opacity:.8;margin-bottom:8px">Заповніть форму — ми передзвонимо</small>
+        <small style="display:block;text-align:center;opacity:.85;margin-bottom:6px">Заповніть форму — ми передзвонимо</small>
 
         <div class="field">
           <label for="name">Ваше ім’я</label>
@@ -366,13 +358,14 @@
     </div>
   </section>
 
-  <!-- Контакти -->
+  <!-- КОНТАКТИ -->
   <section id="contacts" class="section center reveal">
     <div class="container">
       <h2 class="h1" style="font-size:clamp(34px,4.5vw,64px)">Контакти</h2>
       <p class="lead">ПЕРЕДОВІ СИСТЕМИ БЕЗПЕКИ — Innovative Security Systems, м. Одеса</p>
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; align-items:stretch">
-        <div class="paper">
+
+      <div class="contacts-grid">
+        <div class="panel">
           <p><b>Телефон:</b> <a href="tel:+380935123260">+38 (093) 512-32-60</a></p>
           <p><b>Email:</b> <a href="mailto:info@iss-odesa.ua">info@iss-odesa.ua</a> (приклад)</p>
           <p><b>Адреса:</b> Одеса, Україна</p>
@@ -381,6 +374,7 @@
             <a class="btn ghost" href="#top">Угору ▲</a>
           </div>
         </div>
+
         <div style="min-height:260px; border-radius:16px; overflow:hidden; box-shadow:0 12px 32px rgba(0,0,0,.4); border:1px solid var(--stroke)">
           <iframe title="Карта Одеса" width="100%" height="100%" style="min-height:260px; border:0"
             loading="lazy" referrerpolicy="no-referrer-when-downgrade"
@@ -399,15 +393,17 @@
 </footer>
 
 <script>
-  // Рік у футері
+  // рік у футері
   document.getElementById('y').textContent = new Date().getFullYear();
 
-  // М’яка маска телефону (без бібліотек)
+  // «мʼяка» маска телефона
   const phone = document.getElementById('phone');
   if (phone){
     phone.addEventListener('input', e=>{
       let v = e.target.value.replace(/\D+/g,'');
-      if (v.startsWith('380')) v = v; else if (v.startsWith('0')) v = '38'+v; else if (!v.startsWith('38')) v = '38'+v;
+      if (v.startsWith('380')) v = v;
+      else if (v.startsWith('0')) v = '38'+v;
+      else if (!v.startsWith('38')) v = '38'+v;
       v = v.slice(0,12);
       let out = '+';
       for (let i=0;i<v.length;i++){
@@ -418,13 +414,12 @@
     });
   }
 
-  // Плавна поява секцій при прокрутці
+  // анімація появи
   const io = new IntersectionObserver((entries)=>{
     entries.forEach(e=>{
       if(e.isIntersecting){ e.target.classList.add('show'); io.unobserve(e.target); }
     });
   }, {threshold: .12, rootMargin: '0px 0px -10% 0px'});
-
   document.querySelectorAll('.reveal').forEach(el=>{
     if(!el.classList.contains('show')) io.observe(el);
   });
